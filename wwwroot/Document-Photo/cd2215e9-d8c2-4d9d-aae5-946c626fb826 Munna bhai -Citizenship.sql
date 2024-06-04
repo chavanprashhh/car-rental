@@ -1,0 +1,1 @@
+SELECT E.first_name, E.last_name, E.department_id, D.department_name FROM employees E LEFT OUTER JOIN departments D ON E.department_id = D.department_id;
